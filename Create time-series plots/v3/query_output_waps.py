@@ -27,7 +27,7 @@ url_hts = 'WaterUse.hts'
 
 ## Query parameters
 
-site_filter = {'SwazGroupName': ['Selwyn-Waihora']}
+site_filter = {'SwazName': ['Hakataramea River']}
 
 
 #########################################
@@ -96,7 +96,7 @@ sites1 = rd_sites(site_filter)
 
 wap_dict = {'ExtSiteID': sites1.ExtSiteID.tolist()}
 
-crc_dict = {'RecordNumber': ['CRC000018', 'CRC000077']}
+#crc_dict = {'RecordNumber': ['CRC000018', 'CRC000077']}
 
 crc1 = rd_crc(wap_dict)
 # crc1 = rd_crc(crc_dict)
@@ -109,7 +109,15 @@ ht_sites1 = ht_sites.dropna()
 
 ht_crc_wap = pd.merge(crc1, ht_sites1, on='ExtSiteID')
 
-ht_waps = ht_crc_wap[['ExtSiteID', 'SiteName']].drop_duplicates()
+ht_waps = ht_crc_wap[['ExtSiteID', 'SiteName']]
+
+################################################
+### Export meter name table
+export_dir = r'C:\Users\HamishG\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUse_testing\Create time-series plots\v3'
+meter_name_csv = 'meter_name.csv'
+
+file_path = os.path.join(export_dir, meter_name_csv)
+ht_waps.to_csv(file_path, index=False)
 
 
 
