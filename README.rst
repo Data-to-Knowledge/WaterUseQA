@@ -29,6 +29,7 @@ Missing data tools
 	-	to focus on the latest data (eg, data for the last week).
 
 1	Compile WAP Reporting Modes.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	-	This program calculates the normal daily reporting frequency for each WAP and compiles the results into a csv file (‘WAPReportingMode.csv’). It calculates the normal reporting frequency by extracting water take data for the last year and calculating the daily reporting mode. In instances where the annual mode equals zero, the program iterates through four quarters of data trying to calculate a non-zero mode.
 
 2	Generate Weekly Missing Data Report.py
