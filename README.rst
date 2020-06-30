@@ -61,7 +61,15 @@ Four sets of programs have been developed that are intended to let the user expl
 
 Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts
 
+Generate water meter number program
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Generate water meter list.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	This program generates a list of water meters for a user defined catchment. Line 57 of the script is where the user will define the catchment of interest. Example below:
+
+	-			-	site_filter = {'SwazName': ['Hakataramea River']}
+	
 
 
 
