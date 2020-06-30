@@ -65,7 +65,6 @@ Generate water meter number program
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Generate water meter list.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 -	This program generates a list of water meters for a user defined catchment. Line 57 of the script is where the user will define the catchment of interest. Example below:
 	
 		-	site_filter = {'SwazName': ['Hakataramea River']}
