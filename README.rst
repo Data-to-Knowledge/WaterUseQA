@@ -23,7 +23,7 @@ Modules:
 		h.	Plot Water Use - Single WAP - Specified Month
 
 Missing data tools
-------------------
+==================
 
 These programs enable you to explore and detect missing water take data, so that the compliance team can investigate and follow-up if necessary. This data assessment needs:
 
@@ -50,7 +50,7 @@ Create Daily and Hourly Plots – WAP List.py
 -	This program can be used to investigate recent volume and meter reading data for a list of WAPs. The program iterates through the WAP list, generating the associated Daily Plot and Hourly Plot pdfs.
 
 Time-series analysis and visualisation data tools
--------------------------------------------------
+=================================================
 These programs are analytical tools that can be used to analyse and visualise the entire water use time-series for selected WAPs. The tools are intended to support work such as catchment modelling, which requires detailed assessment of historic water use data.
 
 Four sets of programs have been developed that are intended to let the user explore water use data in differing levels of detail:
@@ -63,7 +63,7 @@ Four sets of programs have been developed that are intended to let the user expl
 Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts
 
 Generate water meter number program
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 Generate water meter list.py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -72,7 +72,7 @@ Generate water meter list.py
 	-	site_filter = {'SwazName': ['Hakataramea River']}
 
 Quality Assessment Programs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 -	These programs provide the most general assessment. They are intended to be run over a list of WAPs to give an initial assessment of the water use data that exists for each WAP, and the quality of that data. 
 -	There are two variations of the Quality Assessment programs.
 
@@ -85,7 +85,7 @@ Quality Assessment - WAP List - By Measurement Type.py
 -	This variation (of Quality Assessment - Wap List - combined Series.py) produces a quality assessment for each type of water use measurement that a WAP has. For example, in the case of BY20/0088-M1 which has two measurement types, a quality assessment is provided for each of the two data series (Compliance Volume and Volume).
 
 Time-Series Analysis Programs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 -	These programs enable the user to explore a time-series in more depth. When you run the programs you have the option to output:
 
 	-	an Excel spreadsheet containing various monthly statistics
@@ -113,7 +113,7 @@ Analyse Time Series - With Consent Conditions - WAP List.py
 -	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected.
 
 Monthly visualisation programs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 -	This program is intended to let the user explore detailed data for a month of interest, in instances where something unusual has been noticed in the time-series plots or monthly statistics.
 
 Plot Water Use - Single WAP - Specified Month.py
