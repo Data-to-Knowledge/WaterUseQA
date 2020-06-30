@@ -10,7 +10,8 @@ Contact the developer: hamish.graham@ecan.govt.nz
                or      mike.exner-kittridge@ecan.govt.nz
 
 Inputs to the program:
-1. The user needs to specify the catchment of interest under site_filter (line 56)
+1. The user needs to specify the catchment of interest under site_filter 
+(line 57)
 
 Outputs of the program:
 The program will create:
@@ -112,7 +113,6 @@ def rd_sites(where_in=None):
     sites1 = sites[sites.ExtSiteID.str.contains('[A-Z]+\d\d/\d+')].copy()
 
     return sites1
-
 
 
 ##############################################
