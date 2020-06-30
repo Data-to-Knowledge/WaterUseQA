@@ -64,6 +64,7 @@ Instruction for running the tools and some troubleshooting suggestions can be fo
 
 Time-Series Analysis Programs
 -----------------------------
+
 -	These programs enable the user to explore a time-series in more depth. When you run the programs you have the option to output:
 
 	-	an Excel spreadsheet containing various monthly statistics
