@@ -61,11 +61,6 @@ Four sets of programs have been developed that are intended to let the user expl
 
 Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts
 
-Generate water meter number program
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-	
 Quality Assessment Programs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -	These programs provide the most general assessment. They are intended to be run over a list of WAPs to give an initial assessment of the water use data that exists for each WAP, and the quality of that data. 
