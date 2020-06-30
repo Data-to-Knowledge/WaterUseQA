@@ -21,14 +21,15 @@ Modules:
 		g.	Analyse Time Series - With Consent Conditions - WAP List
 		h.	Plot Water Use - Single WAP - Specified Month
 
-Missing data tools
-------------------
+
 
 These programs enable you to explore and detect missing water take data, so that the compliance team can investigate and follow-up if necessary. This data assessment needs:
 
 -	to be applied to all active WAPs
 -	to be run frequently (eg, weekly)
 -	to focus on the latest data (eg, data for the last week).
+
+Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/MissingDataTools/README.rts
 
 Compile WAP Reporting Modes.py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,3 +46,6 @@ Create Daily and Hourly Plots – Single WAP.py
 Create Daily and Hourly Plots – WAP List.py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 -	This program can be used to investigate recent volume and meter reading data for a list of WAPs. The program iterates through the WAP list, generating the associated Daily Plot and Hourly Plot pdfs.
+
+Time-series analysis and visualisation data tools
+-------------------------------------------------
