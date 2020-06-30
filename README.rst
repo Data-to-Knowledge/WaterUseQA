@@ -67,8 +67,6 @@ Generate water meter number program
 Generate water meter list.py
 -	This program generates a list of water meters for a user defined catchment. Line 57 of the script is where the user will define the catchment of interest. Example below:
 	
-		-	
-		
 Quality Assessment Programs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -	These programs provide the most general assessment. They are intended to be run over a list of WAPs to give an initial assessment of the water use data that exists for each WAP, and the quality of that data. 
