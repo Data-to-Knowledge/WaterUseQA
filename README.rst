@@ -4,7 +4,7 @@ This git repository contains project code for various water use data QA tools. T
 
 Modules:
 	-	Missing data tools: 4 tools used to identify missing water use data
-		1	Compile WAP Reporting Modes
+		*	Compile WAP Reporting Modes
 		2	Generate Weekly Missing Data Report
 		3	Create Daily and Hourly Plots – Single WAP
 		4	Create Daily and Hourly Plots – WAP List
