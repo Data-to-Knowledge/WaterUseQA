@@ -52,4 +52,16 @@ Time-series analysis and visualisation data tools
 -------------------------------------------------
 These programs are analytical tools that can be used to analyse and visualise the entire water use time-series for selected WAPs. The tools are intended to support work such as catchment modelling, which requires detailed assessment of historic water use data.
 
-Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/MissingDataTools/README.rts
+Three sets of programs have been developed that are intended to let the user explore water use data in differing levels of detail:
+
+-	Quality Assessment programs
+-	Time-series Analysis programs
+-	Monthly Visualisation programs
+
+Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts
+
+
+
+
+
+

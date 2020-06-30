@@ -1,5 +1,30 @@
 """
 
+This program generates a list of water meters for a user defined catchment
+which can then be fed into the analysis and visualtion tools developed by
+Alan Ambury in 2020 for Environment Canterbury
+
+Author: Hamish Graham and Mike Exner-Kittridge
+Last Edited: 1 July 2020
+Contact the developer: hamish.graham@ecan.govt.nz  
+               or      mike.exner-kittridge@ecan.govt.nz
+
+Inputs to the program:
+1. The user needs to specify the catchment of interest under site_filter (line 56)
+
+Outputs of the program:
+The program will create:
+1. A spreadsheet containing a list of water meters currently archived in
+Hilltop for the user defined catchment
+
+In order to run the program the user needs to:
+1. Have installed the hilltop-py package developed by Mike Exner-Kittridge
+2. Have installed the pandas, seaborn, matplotlib, datetime and pdsql modules
+(NB: these come packaged with the Anaconda distribution of Python).
+3. Have access to the CrcActSiteSumm table, stored in the ConsentsReporting
+database, on the edwprod01 server along with the ExternalSite table, stored in
+the Hydro database, on the edwprod01 server.
+
 """
 import os
 import numpy as np
@@ -13,7 +38,7 @@ pd.options.display.max_columns = 10
 ###############################################
 ### Parameters
 
-## Don't change
+## DON'T CHANGE
 server = 'edwprod01'
 
 hydro_db = 'hydro'
@@ -27,6 +52,7 @@ url_hts = 'WaterUse.hts'
 
 ## Query parameters
 
+## Can change, user defined
 site_filter = {'SwazName': ['Hakataramea River']}
 
 
@@ -96,9 +122,19 @@ sites1 = rd_sites(site_filter)
 
 wap_dict = {'ExtSiteID': sites1.ExtSiteID.tolist()}
 
+"""
+replace wap_dict (line 123) with below code (line 130) if defining list 
+of consents. Uses line 130 to define list of consents
+"""
+
 #crc_dict = {'RecordNumber': ['CRC000018', 'CRC000077']}
 
 crc1 = rd_crc(wap_dict)
+
+"""
+replace crc1 (line 122) with below code (line 138) if defining list 
+of consents
+"""
 # crc1 = rd_crc(crc_dict)
 
 ht_sites = ws.site_list(ht_url, url_hts)
@@ -109,10 +145,11 @@ ht_sites1 = ht_sites.dropna()
 
 ht_crc_wap = pd.merge(crc1, ht_sites1, on='ExtSiteID')
 
-ht_waps = ht_crc_wap[['ExtSiteID', 'SiteName']]
+ht_waps = ht_crc_wap[['SiteName']]
 
 ################################################
 ### Export meter name table
+
 export_dir = r'C:\Users\HamishG\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUse_testing\Create time-series plots\v3'
 meter_name_csv = 'meter_name.csv'
 
