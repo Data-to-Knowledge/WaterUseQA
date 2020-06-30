@@ -9,6 +9,7 @@ Modules:
 		b.	Generate Weekly Missing Data Report
 		c.	Create Daily and Hourly Plots – Single WAP
 		d.	Create Daily and Hourly Plots – WAP List
+		
 	2.	Time-series analysis and visualisation: 8 tools for analasis and visulaiton of water use data
 	
 		a.	Generate water meter list
