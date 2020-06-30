@@ -25,6 +25,7 @@ Missing data tools
 ------------------
 
 These programs enable you to explore and detect missing water take data, so that the compliance team can investigate and follow-up if necessary. This data assessment needs:
+
 -	to be applied to all active WAPs
 -	to be run frequently (eg, weekly)
 -	to focus on the latest data (eg, data for the last week).
