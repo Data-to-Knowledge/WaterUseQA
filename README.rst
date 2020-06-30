@@ -61,64 +61,6 @@ Four sets of programs have been developed that are intended to let the user expl
 
 Instruction for running the tools and some troubleshooting suggestions can be found here https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts
 
-Generate water meter number program
------------------------------------
-
-Generate water meter list.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	This program generates a list of water meters for a user defined catchment. Line 57 of the script is where the user will define the catchment of interest. Example below:
-
-	-	site_filter = {'SwazName': ['Hakataramea River']}
-
-Quality Assessment Programs
----------------------------
--	These programs provide the most general assessment. They are intended to be run over a list of WAPs to give an initial assessment of the water use data that exists for each WAP, and the quality of that data. 
--	There are two variations of the Quality Assessment programs.
-
-Quality Assessment - WAP List - Combined Series.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	Hilltop sometimes contains multiple measures of water use for a single WAP (eg, some combination of Compliance Volume, Volume, Volume [Flow], Volume [Average Flow], or Water Meter measurements). In order to produce time series plots it is necessary to stitch these different measures together while taking care to avoid overlaps. This program lets you perform a quality assessment on the ‘Combined Series’ that is used to produce the time-series plots.
-
-Quality Assessment - WAP List - By Measurement Type.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	This variation (of Quality Assessment - Wap List - combined Series.py) produces a quality assessment for each type of water use measurement that a WAP has. For example, in the case of BY20/0088-M1 which has two measurement types, a quality assessment is provided for each of the two data series (Compliance Volume and Volume).
-
-Time-Series Analysis Programs
------------------------------
--	These programs enable the user to explore a time-series in more depth. When you run the programs you have the option to output:
-
-	-	an Excel spreadsheet containing various monthly statistics
-	-	a set of plots showing daily totals for each month in the time series, arranged by water year, or
-	-	both the spreadsheet and plots.
-
--	There are four variations of the Time-series analysis programs.
-
-Analyse Time Series - Single WAP.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both. 
-
-Analyse Time Series - WAP List.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected).
-
-Analyse Time Series - With Consent Conditions - Single WAP.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
--	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both.
-
-Analyse Time Series - With Consent Conditions - WAP List.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
--	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected.
-
-Monthly visualisation programs
-------------------------------
--	This program is intended to let the user explore detailed data for a month of interest, in instances where something unusual has been noticed in the time-series plots or monthly statistics.
-
-Plot Water Use - Single WAP - Specified Month.py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
--	The program generates a PDF file containing water use plots, with hourly totals, over a 35 day time period. If the WAP has more than one measurement type during the specified time period, a separate PDF file is generated for each measurement type.
-
 
 
 
