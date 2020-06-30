@@ -3,20 +3,20 @@ Water use data QA tools
 This git repository contains project code for various water use data QA tools. The repository has several modules for performing different data QA tasks.
 
 Modules:
-	-	Missing data tools: 4 tools used to identify missing water use data
-		1.	Compile WAP Reporting Modes
-		2.	Generate Weekly Missing Data Report
-		3.	Create Daily and Hourly Plots – Single WAP
-		4.	Create Daily and Hourly Plots – WAP List
-	-	Time-series analysis and visualisation: 8 tools for analasis and visulaiton of water use data
-		1.	Generate water meter list
-		2.	Quality Assessment - WAP List - By Measurement Type
-		3.	Quality Assessment - WAP List - Combined Series
-		4.	Analyse Time Series - Without  Consent Conditions - Single WAP
-		5.	Analyse Time Series - Without  Consent Conditions - WAP List
-		6.	Analyse Time Series - With Consent Conditions - Single WAP
-		7.	Analyse Time Series - With Consent Conditions - WAP List
-		8.	Plot Water Use - Single WAP - Specified Month
+	1.	Missing data tools: 4 tools used to identify missing water use data
+		a.	Compile WAP Reporting Modes
+		b.	Generate Weekly Missing Data Report
+		c.	Create Daily and Hourly Plots – Single WAP
+		d.	Create Daily and Hourly Plots – WAP List
+	2.	Time-series analysis and visualisation: 8 tools for analasis and visulaiton of water use data
+		a.	Generate water meter list
+		b.	Quality Assessment - WAP List - By Measurement Type
+		c.	Quality Assessment - WAP List - Combined Series
+		d.	Analyse Time Series - Without  Consent Conditions - Single WAP
+		e.	Analyse Time Series - Without  Consent Conditions - WAP List
+		f.	Analyse Time Series - With Consent Conditions - Single WAP
+		g.	Analyse Time Series - With Consent Conditions - WAP List
+		h.	Plot Water Use - Single WAP - Specified Month
 
 Missing data tools
 ------------------
