@@ -67,7 +67,7 @@ Generate water meter number program
 Generate water meter list.py
 -	This program generates a list of water meters for a user defined catchment. Line 57 of the script is where the user will define the catchment of interest. Example below:
 	
-		-	site_filter = {'SwazName': ['Hakataramea River']}
+		-	
 		
 Quality Assessment Programs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,7 +92,31 @@ Time-Series Analysis Programs
 
 -	There are four variations of the Time-series analysis programs.
 
+Analyse Time Series - Single WAP.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both. 
 
+Analyse Time Series - WAP List.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected).
+
+Analyse Time Series - With Consent Conditions - Single WAP.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
+-	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both.
+
+Analyse Time Series - With Consent Conditions - WAP List.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
+-	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected.
+
+Monthly visualisation programs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-	This program is intended to let the user explore detailed data for a month of interest, in instances where something unusual has been noticed in the time-series plots or monthly statistics.
+
+Plot Water Use - Single WAP - Specified Month.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	The program generates a PDF file containing water use plots, with hourly totals, over a 35 day time period. If the WAP has more than one measurement type during the specified time period, a separate PDF file is generated for each measurement type.
 
 
 
