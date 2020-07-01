@@ -60,8 +60,8 @@ Troubleshooting
 
 1.	ElementTree.ParseError:
 
-	Occasionally, on running a program, you may get the error message below. This seems to be a temporary issue with the Hilltop web server and is normally resolved when you re-run the program.
-xml.etree.ElementTree.ParseError: not well-formed (invalid token)
+	Occasionally, on running a program, you may get the error message below. This seems to be a temporary issue with the Hilltop web server and is normally resolved when you re-run the program. 
+	xml.etree.ElementTree.ParseError: not well-formed (invalid token)
 
 2. Key and Value errors in Weekly Missing Data report:
 
