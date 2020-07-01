@@ -65,5 +65,5 @@ Troubleshooting
 
 2. Key and Value errors in Weekly Missing Data report:
 
-	Occasionally (approximately 0.2 percent of the time), the Hilltop web server throws a KeyError or ValueError when retrieving data. At this stage I’m not sure of the exact cause of this. I have set up my program so that it records these errors without crashing. However, I would like to investigate and understand the root cause of this problem.
+	Occasionally (approximately 0.2 percent of the time), the Hilltop web server throws a KeyError or ValueError when retrieving data. At this stage I’m not sure of the exact cause of this. I have set up my program so that it records these errors without crashing. However, I would like to investigate and understand the root cause of this problem
 
