@@ -32,7 +32,7 @@ These programs enable you to explore and detect missing water take data, so that
 -	to be run frequently (eg, weekly)
 -	to focus on the latest data (eg, data for the last week).
 
-Instruction for running the tools and some troubleshooting suggestions can be found here: https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/MissingDataTools/README.rts.
+Instruction for running the tools and some troubleshooting suggestions can be found here: https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/MissingDataTools/README.rst.
 
 Compile WAP Reporting Modes.py
 -------------------------------------------------
@@ -62,7 +62,7 @@ Four sets of programs have been developed that are intended to let the user expl
 -	Time-series Analysis programs
 -	Monthly Visualisation programs
 
-Instruction for running the tools and some troubleshooting suggestions can be found here: https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rts.
+Instruction for running the tools and some troubleshooting suggestions can be found here: https://github.com/Data-to-Knowledge/WaterUseQA/blob/master/CreateTimeSeriesPlots/README.rst.
 
 Generate water meter number program
 -------------------------------------------------
