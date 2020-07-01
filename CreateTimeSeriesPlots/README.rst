@@ -46,13 +46,13 @@ Quality Assessment - WAP List - Combined Series V2.py
 --------------------------------------------------------
 
 Input:
-A csv file containing a list of WAPs
+	A csv file containing a list of WAPs
 Output:
-An Excel spreadsheet containing QA statistics
+	An Excel spreadsheet containing QA statistics
 Description:
-Hilltop sometimes contains multiple measures of water use for a single WAP (eg, some combination of Compliance Volume, Volume, Volume [Flow], Volume [Average Flow], or Water Meter measurements). In order to produce time series plots it is necessary to stitch these different measures together while taking care to avoid overlaps. This program lets you perform a quality assessment on the ‘Combined Series’ that is used to produce the time-series plots.
+	Hilltop sometimes contains multiple measures of water use for a single WAP (eg, some combination of Compliance Volume, Volume, Volume [Flow], Volume [Average Flow], or Water Meter measurements). In order to produce time series plots it is necessary to stitch these different measures together while taking care to avoid overlaps. This program lets you perform a quality assessment on the ‘Combined Series’ that is used to produce the time-series plots.
 Notes on the ‘Combined Series':
-When a WAP has more than one measure of water use for a given period of time, it is necessary to include just one of these measures (so as to avoid double or triple counting water use). The method used in this program to create a ‘Combined Series’ is as follows:
+	When a WAP has more than one measure of water use for a given period of time, it is necessary to include just one of these measures (so as to avoid double or triple counting water use). The method used in this program to create a ‘Combined Series’ is as follows:
 
 1.	Find the measurement type with the earliest start date (Measurement 1) and extract the entire time-series for Measurement 1.
 2.	If there is another measurement type with data that follows on from Measurement 1, extract data for this measurement type (Measurement 2). Avoid any overlap with Measurement 1 by using the end_date for Measurement 1 to determine the start_date for Measurement 2.
@@ -70,11 +70,11 @@ Quality Assessment - WAP List – By Measurement Type V2.py
 -----------------------------------------------------------
 
 Input:
-A csv file containing a list of WAPs
+	A csv file containing a list of WAPs
 Output:
-An Excel spreadsheet containing QA statistics
+	An Excel spreadsheet containing QA statistics
 Description:
-This variation produces a quality assessment for each type of water use measurement that a WAP has. For example, in the case of BY20/0088-M1 which has two measurement types, a quality assessment is provided for each of the two data series (Compliance Volume and Volume).
+	This variation produces a quality assessment for each type of water use measurement that a WAP has. For example, in the case of BY20/0088-M1 which has two measurement types, a quality assessment is provided for each of the two data series (Compliance Volume and Volume).
 
 
 
