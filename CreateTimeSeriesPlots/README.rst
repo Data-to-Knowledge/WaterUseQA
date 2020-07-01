@@ -58,6 +58,8 @@ Notes on the ‘Combined Series':
 2.	If there is another measurement type with data that follows on from Measurement 1, extract data for this measurement type (Measurement 2). Avoid any overlap with Measurement 1 by using the end_date for Measurement 1 to determine the start_date for Measurement 2.
 3.	Repeat this process for any additional measurement types.
 
+An example of this method – as applied to BY20/0088-M1 – is provided in the table below.
+
 =============================================    ===========================================================    ==================================================================================================================
 Water use data in Hilltop                        Water use data included in Combined series                     Notes
 =============================================    ===========================================================    ==================================================================================================================
