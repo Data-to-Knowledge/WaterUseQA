@@ -79,6 +79,7 @@ Description:
 2.	Time-series Analysis Programs
 ===================================
 These programs enable the user to explore a time-series in more depth. When you run the programs you have the option to output:
+
 -	an Excel spreadsheet containing various monthly statistics
 -	a set of plots showing daily totals for each month in the time series, arranged by water year, or
 -	both the spreadsheet and plots.
