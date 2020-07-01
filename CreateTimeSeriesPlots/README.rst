@@ -72,6 +72,13 @@ Water use data in Hilltop                    	 Water use data included in Combin
 Compliance volume (01/07/2012 to 08/05/2016)	 Water use data from 01/07/2012 to 08/05/2016 is included		This is classified as Measurement 1 and the entire time series is extracted
 =============================================    ===========================================================    ===============================================================================
 
+==========  ======
+Inputs      Output
+----------  -------
+Test        A or B
+==========  =======
+
+
 Quality Assessment - WAP List – By Measurement Type V2.py
 -----------------------------------------------------------
 
