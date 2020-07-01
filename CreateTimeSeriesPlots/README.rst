@@ -1,5 +1,5 @@
 =============================================================================
-Water Use Data Assessment Part 2: Time-series Analysis and Visualisation
+Water Use Data Assessment: Time-series Analysis and Visualisation
 =============================================================================
 
 Aims
