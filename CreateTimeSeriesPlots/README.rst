@@ -62,9 +62,7 @@ Notes on the ‘Combined Series':
 |    Water use data in Hilltop 	  | Water use data included in     |                  Notes    				    |
 |								  |     Combined series		       |						  					|
 +=================================+================================+============================================+
-| Compliance volume (01 07 2012   | Water use data from 01 07 2012 | This is classified as Measurement 1        |
-|	to 08 05 2016)				  | to 08 05 2016 is included 	   | and the entire time series is extracted    |
-+---------------------------------+--------------------------------+--------------------------------------------+
+
 
 Quality Assessment - WAP List – By Measurement Type V2.py
 -----------------------------------------------------------
