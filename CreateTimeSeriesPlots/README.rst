@@ -58,13 +58,13 @@ Notes on the ‘Combined Series':
 2.	If there is another measurement type with data that follows on from Measurement 1, extract data for this measurement type (Measurement 2). Avoid any overlap with Measurement 1 by using the end_date for Measurement 1 to determine the start_date for Measurement 2.
 3.	Repeat this process for any additional measurement types.
 
-+---------------------------------+--------------------------------+--------------------------------------------+
-|    Water use data in Hilltop 	  | Water use data included in     |                  Notes    				    |
-|								  |     'Combined series'		   |											|
-+=================================+================================+============================================+
-| Compliance volume (01-07-2012   | Water use data from 01-07-2012 | This is classified as Measurement          |
-|	to 08-05-2016)				  | to 08-05-2016 is included 	   | 1 and the entire time-series is extracted  |
-+---------------------------------+--------------------------------+--------------------------------------------+
+	+---------------------------------+--------------------------------+--------------------------------------------+
+	|    Water use data in Hilltop 	  | Water use data included in     |                  Notes    				    |
+	|								  |     'Combined series'		   |											|
+	+=================================+================================+============================================+
+	| Compliance volume (01-07-2012   | Water use data from 01-07-2012 | This is classified as Measurement          |
+	|	to 08-05-2016)				  | to 08-05-2016 is included 	   | 1 and the entire time-series is extracted  |
+	+---------------------------------+--------------------------------+--------------------------------------------+
 
 Quality Assessment - WAP List – By Measurement Type V2.py
 -----------------------------------------------------------
