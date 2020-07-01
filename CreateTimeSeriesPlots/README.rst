@@ -58,6 +58,7 @@ When a WAP has more than one measure of water use for a given period of time, it
 2.	If there is another measurement type with data that follows on from Measurement 1, extract data for this measurement type (Measurement 2). Avoid any overlap with Measurement 1 by using the end_date for Measurement 1 to determine the start_date for Measurement 2.
 3.	Repeat this process for any additional measurement types.
 
+Grid table:
 +--------------------------------------------------+------------------------------------------------------------+-------------------------------------------------------------------------------+
 | Water use data in Hilltop 					   | Water use data included in 'Combined series'               | Notes                              										    |
 +==================================================+============================================================+===============================================================================+
