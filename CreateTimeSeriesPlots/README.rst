@@ -59,6 +59,7 @@ When a WAP has more than one measure of water use for a given period of time, it
 3.	Repeat this process for any additional measurement types.
 
 Grid table:
+
 +--------------------------------------------------+------------------------------------------------------------+-------------------------------------------------------------------------------+
 | Water use data in Hilltop 					   | Water use data included in 'Combined series'               | Notes                              										    |
 +==================================================+============================================================+===============================================================================+
