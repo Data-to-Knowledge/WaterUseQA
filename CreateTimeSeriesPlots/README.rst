@@ -66,3 +66,15 @@ When a WAP has more than one measure of water use for a given period of time, it
 |	to 08-05-2016)				  | to 08-05-2016 is included 	   | 1 and the entire time-series is extracted  |
 +---------------------------------+--------------------------------+--------------------------------------------+
 
+Quality Assessment - WAP List – By Measurement Type V2.py
+-----------------------------------------------------------
+
+Input:
+A csv file containing a list of WAPs
+Output:
+An Excel spreadsheet containing QA statistics
+Description:
+This variation produces a quality assessment for each type of water use measurement that a WAP has. For example, in the case of BY20/0088-M1 which has two measurement types, a quality assessment is provided for each of the two data series (Compliance Volume and Volume).
+
+
+
