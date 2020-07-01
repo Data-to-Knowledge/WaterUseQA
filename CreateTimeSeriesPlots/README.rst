@@ -60,8 +60,8 @@ Notes on the ‘Combined Series':
 
 +---------------------------------+--------------------------------+--------------------------------------------+
 |    Water use data in Hilltop 	  | Water use data included in     |                  Notes    				    |
-|								  |     Combined series		       |						  					|
 +=================================+================================+============================================+
+
 
 
 Quality Assessment - WAP List – By Measurement Type V2.py
