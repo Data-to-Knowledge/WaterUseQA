@@ -147,6 +147,7 @@ Notes relating to Consent Conditions:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1.	All consent conditions are extracted from a SQL table (CrcActSiteSumm). It is important to note that these conditions relate to entire sites (eg, BZ19/0066) rather than the meter entities that are stored in Hilltop (eg, BZ19/0066-M1 and BZ19/0066-M2).
 2.	To obtain the consent conditions for a given site the following logic is applied:
+
 	a.	In the first instance, any active consents are extracted and aggregated
 	b.	If no active consents exist, the consent with the most recent “ToDate” is extracted.
 3.	In the plot titled “Daily volume extracted in m3”, the dotted reference line is derived from the ConsentedRate value in the SQL table. It represents the volume of water that would be extracted if the maximum extraction rate was applied for an entire day.
