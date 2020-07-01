@@ -156,6 +156,44 @@ Notes relating to Consent Conditions:
 6.	In instances where a site has no consent conditions, the programs still generate a set of plots but without the extra consent features. The moving average plot is not generated at all.
 
 
+Monthly Visualisation program
+=================================
+This program is intended to let the user explore detailed data for a month of interest, in instances where something unusual has been noticed in the time-series plots or monthly statistics.
+
+Plot Water Use - Single WAP - Specified Month V2.py
+-----------------------------------------------------
+Input:
+	On running this program the user is asked to specify:
+	
+	a.	the WAP of interest
+	b.	the start date for the plots in YYYY-MM-DD format
+	
+Output:
+The program generates a PDF file containing water use plots, with hourly totals, over a 35 day time period. If the WAP has more than one measurement type during the specified time period, a separate PDF file is generated for each measurement type.
+
+Notes relating to the Monthly Visualisation program:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1.	This program does not filter out any negative values that may be in the raw data.
+2.	Volume extracted is visualised using both a line plot and a bar plot as both of these are beneficial in different circumstances.
+
+Troubleshooting
+=================
+
+1.	Temporary errors with the Hilltop web server
+
+	-	Occasionally the Hilltop web server is offline and you may get an unusual error when running a program (eg, a message saying that a WAP doesn’t exist in the WaterUse.hts file, even though you know it does). This is a temporary issue and is normally resolved when you re-run the program.
+
+2.	Oddities in historic Hilltop water use data
+
+	-	During testing of these programs, various oddities were observed in the historic Hilltop data. Examples of these oddities included:
+	
+	a.	WAPs with incomplete measurement lists in the Hilltop WaterUse.hts file. 
+	b.	WAPs with water use data stored using the wrong measurement type.
+	
+Please let me know if the program ever crashes, or returns warning messages, as this may indicate additional oddities that need to be considered.
+
+
+
 
 
 
