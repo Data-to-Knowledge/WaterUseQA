@@ -4,6 +4,7 @@ Water Use Data Assessment Part 1: Missing Data
 
 Aims
 =======
+
 To detect missing water take data over the last week, so that the compliance team can investigate and follow-up if necessary. This data assessment needs:
 
 -	to be applied to all active WAPs
@@ -19,6 +20,7 @@ An initial method of detecting missing water take data has been developed in Pyt
 
 Summary of method and instructions for running Python programs
 =================================================================
+
 The method involves three main steps.
 
 1.	Compile WAP Reporting Modes.py
