@@ -111,6 +111,7 @@ Output:
 Analyse Time Series – With Consent Conditions - Single WAP V1.py
 ------------------------------------------------------------------
 This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
+
 Input:
 	On running this program the user is asked to specify:
 	
@@ -123,6 +124,7 @@ Output:
 Analyse Time Series – With Consent Conditions - WAP List V1.py
 ----------------------------------------------------------------
 This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
+
 Input:
 	On running this program the user is asked to specify:
 	
@@ -145,8 +147,8 @@ Notes relating to Consent Conditions:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1.	All consent conditions are extracted from a SQL table (CrcActSiteSumm). It is important to note that these conditions relate to entire sites (eg, BZ19/0066) rather than the meter entities that are stored in Hilltop (eg, BZ19/0066-M1 and BZ19/0066-M2).
 2.	To obtain the consent conditions for a given site the following logic is applied:
-a.	In the first instance, any active consents are extracted and aggregated
-b.	If no active consents exist, the consent with the most recent “ToDate” is extracted.
+	a.	In the first instance, any active consents are extracted and aggregated
+	b.	If no active consents exist, the consent with the most recent “ToDate” is extracted.
 3.	In the plot titled “Daily volume extracted in m3”, the dotted reference line is derived from the ConsentedRate value in the SQL table. It represents the volume of water that would be extracted if the maximum extraction rate was applied for an entire day.
 4.	In the plot titled “Volume extracted (m3) – [] day moving average”, the moving average is based on the ConsentedMultiDayPeriod from the SQL table. The dotted reference line is derived by dividing the ConsentedMultiDayVolume by the ConsentedMultiDayPeriod. When the volume extracted is above the dotted reference line, this indicates that the ConsentedMultiDayVolume has been exceeded.
 5.	In the plot titled “Average daily extraction rate in L/s”, the dotted reference line is derived from the ConsentedRate value in the SQL table. It enables comparison of the average daily extraction rate with the maximum consented extraction rate.
