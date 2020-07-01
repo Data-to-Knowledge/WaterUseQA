@@ -64,7 +64,7 @@ Notes on the ‘Combined Series':
 Water use data in Hilltop                    	 Water use data included in Combined series						Notes
 =============================================	 ===========================================================	==================================================================================================================
 Compliance volume (01/07/2012 to 08/05/2016)	 Water use data from 01/07/2012 to 08/05/2016 is included		This is classified as Measurement 1 and the entire time series is extracted
-Volume (01-07-2015 to 30-06-2019)				 Data from 09-05-2016 to 30-06-2019 is included					The start date for the extraction (09-05-2016) is the day that follows the end of the Measurement 1 time-series
+Volume (01/07/2015 to 30/06/2019)				 Data from 09/05/2016 to 30/06/2019 is included					The start date for the extraction (09/05/2016) is the day that follows the end of the Measurement 1 time series
 =============================================    ===========================================================    ==================================================================================================================
 
 
