@@ -5,7 +5,7 @@ Water Use Data Assessment: Time-series Analysis and Visualisation
 Aims
 =====
 
-Part 2 of the project aims to create analytical tools that can be used to analyse and visualise the entire water use time-series for selected WAPs. The tools are intended to support work such as catchment modelling, which requires detailed assessment of historic water use data.
+Create analytical tools that can be used to analyse and visualise the entire water use time-series for selected WAPs. The tools are intended to support work such as catchment modelling, which requires detailed assessment of historic water use data.
 
 Requirements
 ---------------
@@ -194,8 +194,8 @@ Troubleshooting
 	
 Please let me know if the program ever crashes, or returns warning messages, as this may indicate additional oddities that need to be considered.
 
-
-
-
-
-
+Contact details
+=================
+Alan Ambury
+Email: alan@whiterockconsulting.co.nz
+Cell: 0274 942 263
