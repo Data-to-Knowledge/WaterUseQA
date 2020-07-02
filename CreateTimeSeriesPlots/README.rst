@@ -197,5 +197,7 @@ Please let me know if the program ever crashes, or returns warning messages, as 
 Contact details
 =================
 Alan Ambury
+
 Email: alan@whiterockconsulting.co.nz
+
 Cell: 0274 942 263
