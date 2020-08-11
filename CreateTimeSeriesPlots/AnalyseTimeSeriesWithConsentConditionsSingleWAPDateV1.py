@@ -7,8 +7,10 @@ Last Edited: 19 June 2020
 Contact the developer: alan@whiterockconsulting.co.nz
 
 Inputs to the program:
-1. The user needs to specify the WAP of interest.
-2. The user needs to specify if they wish to export Statistics [s], Plots [p]
+1. The user needs to define their date range of interest prior to running
+    the script (line 528)
+2. The user needs to specify the WAP of interest.
+3. The user needs to specify if they wish to export Statistics [s], Plots [p]
    or Both [b].
 
 Outputs of the program:
