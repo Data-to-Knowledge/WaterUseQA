@@ -7,8 +7,10 @@ Last Edited: 19 June 2020
 Contact the developer: alan@whiterockconsulting.co.nz
 
 Inputs to the program:
-1. The user needs to specify a csv file that contains a list of WAPs
-2. The user needs to specify if they wish to export Statistics [s], Plots [p]
+1. The user needs to define their date range of interest prior to running
+    the script (line 545)
+2. The user needs to specify a csv file that contains a list of WAPs
+3. The user needs to specify if they wish to export Statistics [s], Plots [p]
    or Both [b].
 
 Outputs of the program:

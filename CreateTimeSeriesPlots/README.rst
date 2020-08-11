@@ -30,10 +30,24 @@ Four sets of programs have been developed that are intended to let the user expl
 1.	Water meter list generator (created by HG & MEK Environment Canterbury)
 ==========================================================================
 
-This program generates a list of water meters for a user defined catchment.
-Line 57 of the script is where the user will define the catchment of interest. Example below:
+Three versions of this program have been produced depending on the users input (list of WAPs, list of consent numbers or catchment name. The programs generate a list of water meters which are then used as an input into the quality assessment, time-series analysis and monthly visualisation programs.
 
--	site_filter = {'SwazName': ['Hakataramea River']}
+The required inputs for the WAP list generated water meter numbers are:
+
+1.	The user will need to specify the folder pathway the python packages are located (line 59) and the name of the .csv file (line 61)
+2.	The user needs to specify the list of consents in sites.csv using the heading "ExtSiteID" in cell A1
+
+The required inputs for the consent number list generated water meter numbers are:
+
+1.	The user will need to specify the folder pathway the python packages are located (line 59) and the name of the .csv file (line 61)
+2.	The user needs to specify the list of consents in sites.csv using the heading "RecordNumber" in cell A1
+
+The required inputs for the catchment defined generated water meter numbers are:
+
+1.	Line 57 of the script is where the user will define the catchment of interest. Example below:
+				site_filter = {'SwazName': ['Hakataramea River']}
+
+For all three water meter list generators the output will be a spreadsheet containing a list of water meters currently archived in Hilltop for the user defined WAP list/consent list/catchment.
 
 2.	Quality Assessment Programs
 ================================
@@ -123,6 +137,20 @@ Input:
 Output:
 	Depending on the export option selected, the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both. 
 
+Analyse Time Series – With Consent Conditions - Single WAP with date V1.py (modified from AA, Whiterock Consulting, script by HG & MEK, Environment Canterbury)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This variation adds extra features to the time-series plots, based on consent conditions and a user defined date range. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server. Line 528 is where the date range is defined. An example of this is below for the 2018/19 water year:
+
+			mslist2 = process_measurement_list(mslist, '2018-07-01', '2019-06-30')
+			
+Input:
+	On running this program the user is asked to specify:
+	a.	a single WAP of interest
+	b.	whether they want to export Statistics [s], Plots [p] or Both [b]
+	
+Output:
+	Depending on the export option selected, the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both. 
+
 Analyse Time Series – With Consent Conditions - WAP List V1.py
 ----------------------------------------------------------------
 This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
@@ -135,6 +163,19 @@ Input:
 	
 Output:
 	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected.
+
+Analyse Time Series – With Consent Conditions - WAP List and Date V1.py (modified from AA, Whiterock Consulting, script by HG & MEK, Environment Canterbury)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This variation adds extra features to the time-series plots, based on consent conditions and a user defined date range. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server. Line 545 is where the date range is defined. An example of this is below for the 2018/19 water year:
+
+			mslist2 = process_measurement_list(mslist, '2018-07-01', '2019-06-30')
+			
+Input:
+	On running this program the user is asked to specify:
+	a.	a csv file that contains a list of WAPs
+	b.	whether they want to export Statistics [s], Plots [p] or Both [b]
+Output:
+	The program iterates through the WAPs included in the csv file. For each WAP the program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both (depending on export option that has been selected).
 
 Notes relating to the Time-series analysis programs:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
