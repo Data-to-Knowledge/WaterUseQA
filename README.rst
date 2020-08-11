@@ -19,9 +19,10 @@ Modules:
 		d.	Analyse Time Series - Without  Consent Conditions - Single WAP
 		e.	Analyse Time Series - Without  Consent Conditions - WAP List
 		f.	Analyse Time Series - With Consent Conditions - Single WAP
-		g.	Analyse Time Series - With Consent Conditions - WAP List
-		h.	Analyse Time Series - With Consent Conditions - WAP List with Date
-		i.	Plot Water Use - Single WAP - Specified Month
+		g.	Analyse Time Series - With Consent Conditions - Single WAP with Date
+		h.	Analyse Time Series - With Consent Conditions - WAP List
+		i.	Analyse Time Series - With Consent Conditions - WAP List with Date
+		j.	Plot Water Use - Single WAP - Specified Month
 
 ==================
 Missing data tools
@@ -108,6 +109,12 @@ Analyse Time Series - WAP List.py
 
 Analyse Time Series - With Consent Conditions - Single WAP.py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
+-	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both.
+
+Analyse Time Series - With Consent Conditions - Single WAP with date.py
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-	Add functionality to define a date range rather than running across entire water use record.
 -	This variation adds extra features to the time-series plots, based on consent conditions. The consent conditions are extracted from the CrcActSiteSumm table, stored in the ConsentsReporting database on the epwprod01 server.
 -	The program will output an Excel spreadsheet containing monthly statistics, a PDF file containing time-series plots, or both.
 
