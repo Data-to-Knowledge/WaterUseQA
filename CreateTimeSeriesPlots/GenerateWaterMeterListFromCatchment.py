@@ -6,7 +6,7 @@ which can then be fed into the analysis and visualtion tools developed by
 Alan Ambury in 2020 for Environment Canterbury
 
 Author: Hamish Graham and Mike Exner-Kittridge
-Last Edited: 6 August 2020
+Last Edited: 7 August 2020
 Contact the developer: hamish.graham@ecan.govt.nz  
                or      mike.exner-kittridge@ecan.govt.nz
 
@@ -16,16 +16,16 @@ Inputs to the program:
 
 Outputs of the program:
 The program will create:
-1. A spreadsheet containing a list of water meters currently archived in
-Hilltop for the user defined catchment
+1.  A spreadsheet containing a list of water meters currently archived in
+    Hilltop for the user defined catchment
 
 In order to run the program the user needs to:
-1. Have installed the hilltop-py package developed by Mike Exner-Kittridge
-2. Have installed the pandas, seaborn, matplotlib, datetime and pdsql modules
-(NB: these come packaged with the Anaconda distribution of Python).
-3. Have access to the CrcActSiteSumm table, stored in the ConsentsReporting
-database, on the edwprod01 server along with the ExternalSite table, stored in
-the Hydro database, on the edwprod01 server.
+1.  Have installed the hilltop-py package developed by Mike Exner-Kittridge
+2.  Have installed the pandas, seaborn, matplotlib, datetime and pdsql modules
+    (NB: these come packaged with the Anaconda distribution of Python).
+3.  Have access to the CrcActSiteSumm table, stored in the ConsentsReporting
+    database, on the edwprod01 server along with the ExternalSite table, 
+    stored in the Hydro database, on the edwprod01 server.
 
 """
 import os

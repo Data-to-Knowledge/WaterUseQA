@@ -6,28 +6,28 @@ which can then be fed into the analysis and visualtion tools developed by
 Alan Ambury in 2020 for Environment Canterbury
 
 Author: Hamish Graham and Mike Exner-Kittridge
-Last Edited: 6 August 2020
+Last Edited: 7 August 2020
 Contact the developer: hamish.graham@ecan.govt.nz  
                or      mike.exner-kittridge@ecan.govt.nz
 
 Inputs to the program:
 1.  The user will need to specify the folder pathway the python packages are
-    located (line 59)
-2.  The user needs to specify the list of consents in sites.csv using the 
-    heading "RecordNumber" in cell A1
+    located (line 59) and the name of the .csv file (line 61)
+2.  The user needs to specify the list of WAPs in .csv using the 
+    heading "ExtSiteID" in cell A1
 
 Outputs of the program:
 The program will create:
-1. The user needs to specify the list of WAPs in sites.csv using the 
-heading "ExtSiteID" in cell A1
+1.  A spreadsheet containing a list of water meters currently archived in
+    Hilltop for the user defined WAP list
 
 In order to run the program the user needs to:
-1. Have installed the hilltop-py package developed by Mike Exner-Kittridge
-2. Have installed the pandas, seaborn, matplotlib, datetime and pdsql modules
-(NB: these come packaged with the Anaconda distribution of Python).
-3. Have access to the CrcActSiteSumm table, stored in the ConsentsReporting
-database, on the edwprod01 server along with the ExternalSite table, stored in
-the Hydro database, on the edwprod01 server.
+1.  Have installed the hilltop-py package developed by Mike Exner-Kittridge
+2.  Have installed the pandas, seaborn, matplotlib, datetime and pdsql modules
+    (NB: these come packaged with the Anaconda distribution of Python).
+3.  Have access to the CrcActSiteSumm table, stored in the ConsentsReporting
+    database, on the edwprod01 server along with the ExternalSite table,
+    stored in the Hydro database, on the edwprod01 server.
 
 """
 import os
