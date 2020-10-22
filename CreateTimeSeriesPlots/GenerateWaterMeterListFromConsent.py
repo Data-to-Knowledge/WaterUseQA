@@ -56,7 +56,7 @@ url_hts = 'WaterUse.hts'
 
 ## Query parameters - Can change, user defined
 
-base_path = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUse_testing\CreateTimeSeriesPlots'
+base_path = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
 
 csv_file = 'consents.csv'
 
@@ -142,7 +142,7 @@ ht_waps = ht_crc_wap[['SiteName']]
 ################################################
 ### Export meter name table
 
-export_dir = r'C:\Users\HamishG\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUse_testing\CreateTimeSeriesPlots'
+export_dir = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
 meter_name_csv = 'meter_name.csv'
 
 file_path = os.path.join(export_dir, meter_name_csv)

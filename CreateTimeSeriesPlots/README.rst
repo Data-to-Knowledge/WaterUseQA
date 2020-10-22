@@ -12,7 +12,7 @@ Requirements
 
 In order to run the associated Python programs the user will need to have installed:
 
--	Python Anaconda (and the pandas, seaborn, matplotlib and datetime modules)  
+-	Python Anaconda (and the pandas, seaborn, matplotlib, xlsxwriter and datetime modules)  
 -	The hilltop-py package developed by Mike Exner-Kitteridge.
 
 Two of the Python programs (which deal with consent conditions) also require access to the CrcActSiteSumm table. This table is stored in the ConsentsReporting database on the edwprod01 server.

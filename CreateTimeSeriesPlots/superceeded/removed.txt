@@ -1,0 +1,3 @@
+# Report if a site is not in the WaterUse.hts file                 
+        except:
+            print("{0} has no data in the Hilltop WaterUse.hts file".format(site))
