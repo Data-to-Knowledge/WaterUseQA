@@ -592,7 +592,8 @@ def main():
                 print("Process completed")
             
         # Report if a site is not in the WaterUse.hts file                 
-        except:
-            print("{0} has no data in the Hilltop WaterUse.hts file".format(site))
-    
+        except Exception as ex:
+            print('Run failed')
+            print(str(ex))
+        
 main()
