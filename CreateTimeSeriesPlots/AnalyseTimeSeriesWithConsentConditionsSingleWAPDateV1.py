@@ -524,7 +524,7 @@ def main():
     ## Initial extraction and processing
     # Extract measurement list
     mslist = get_measurement_list(site)
-    # Process measurement list
+    # Process measurement list - edit date range here
     mslist2 = process_measurement_list(mslist, '2018-07-01', '2019-06-30')
     # Extract water use data
     wu_data = extract_water_use_data(mslist2, site)
