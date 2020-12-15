@@ -143,10 +143,10 @@ ht_waps = ht_crc_wap[['SiteName']]
 ### Export meter name table
 
 export_dir = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
-meter_name_csv = 'meter_name.csv'
+meter_name_csv = 'list.csv'
 
 file_path = os.path.join(export_dir, meter_name_csv)
-ht_waps.to_csv(file_path, index=False)
+ht_crc_wap.to_csv(file_path, index=False)
 
 
 

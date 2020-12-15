@@ -1,0 +1,20 @@
+RecordNumber,Activity,HydroGroup,ExtSiteID,FromDate,ToDate,FromMonth,ToMonth,ConsentedRate,ConsentedMultiDayVolume,ConsentedMultiDayPeriod,ConsentedAnnualVolume,WaterUse,IrrigationArea,ConsentStatus,ModifiedDate,SiteName
+CRC084776,Take,Surface Water,BU24/0011,8/05/2015 0:00,1/01/2025 0:00,1,12,127,10973,1,1561600,agriculture,320,Issued - Active,15/06/2020 10:35,BU24/0011-M1
+CRC122250,Take,Surface Water,N32/0438,10/08/2016 0:00,1/01/2025 0:00,1,12,27.5,2376,1,254125,agriculture,48,Issued - Active,15/06/2020 10:35,N32/0438-M1
+CRC155109,Take,Surface Water,N32/0362,17/02/2015 0:00,25/09/2036 0:00,1,12,10,864,1,315360,agriculture,40,Issued - Active,15/06/2020 10:35,N32/0362-M1
+CRC173317,Take,Groundwater,N32/0259,18/07/2018 0:00,1/12/2024 0:00,1,12,54,4665,1,395000,agriculture,240,Issued - Active,15/06/2020 10:35,N32/0259-M1
+CRC173317,Take,Groundwater,N32/0384,18/07/2018 0:00,1/12/2024 0:00,1,12,54,4665,1,395000,agriculture,240,Issued - Active,15/06/2020 10:35,N32/0384-M1
+CRC174063,Take,Surface Water,N32/0371,22/12/2016 0:00,22/12/2026 0:00,1,12,22,1901,1,94500,agriculture,0,Issued - Inactive,15/06/2020 10:35,N32/0371-M1
+CRC180872,Take,Surface Water,N32/0372,12/03/2020 0:00,11/05/2040 0:00,3,10,150,12960,1,1508000,agriculture,600,Issued - Active,28/08/2020 15:44,N32/0372-M1
+CRC180872,Take,Surface Water,N32/0372,12/03/2020 0:00,11/05/2040 0:00,3,10,150,12960,1,1508000,agriculture,600,Issued - Active,28/08/2020 15:44,N32/0372-M2
+CRC180872,Take,Surface Water,N32/0372,12/03/2020 0:00,11/05/2040 0:00,3,10,150,12960,1,1508000,agriculture,600,Issued - Active,28/08/2020 15:44,N32/0372-M3
+CRC180872,Take,Surface Water,N32/0372,12/03/2020 0:00,11/05/2040 0:00,3,10,150,12960,1,1508000,agriculture,600,Issued - Active,28/08/2020 15:44,N32/0372-M4
+CRC180872,Take,Surface Water,N32/0373,12/03/2020 0:00,11/05/2040 0:00,3,10,150,12960,1,1508000,agriculture,600,Issued - Active,28/08/2020 15:44,N32/0373-M1
+CRC190744,Take,Surface Water,M32/0010,7/08/2018 0:00,1/01/2025 0:00,1,12,112.5,9720,1,1273275,agriculture,456,Issued - Active,15/06/2020 10:35,M32/0010-M1
+CRC191068,Take,Groundwater,M32/0006,24/08/2018 0:00,12/03/2039 0:00,1,12,16,1382,1,220746,agriculture,165,Issued - Active,15/06/2020 10:35,M32/0006-M1
+CRC951918.1,Take,Surface Water,N32/0349,26/08/2010 0:00,17/08/2030 0:00,1,12,30,22680,14,946080,agriculture,45,Issued - Active,15/06/2020 10:35,N32/0349-M1
+CRC202042,,,,,,,,,,,,,,,,No obvious meter name
+CRC961569.2,,,,,,,,,,,,,,,,No obvious meter name
+CRC011810.1,,,,,,,,,,,,,,,,No obvious meter name
+CRC155118,,,,,,,,,,,,,,,,No obvious meter name
+CRC981514,,,,,,,,,,,,,,,,No obvious meter name
