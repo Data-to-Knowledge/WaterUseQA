@@ -34,7 +34,7 @@ import os
 import numpy as np
 import pandas as pd
 from pdsql import mssql
-from hilltoppy import util
+from hilltoppy import utils
 from hilltoppy import web_service as ws
 
 pd.options.display.max_columns = 10
@@ -55,12 +55,14 @@ ht_url = 'http://wateruse.ecan.govt.nz'
 url_hts = 'WaterUse.hts'
 
 ## Query parameters - Can change, user defined
-
+#Input parameters
 base_path = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
-
 csv_file = 'consents.csv'
-
 csv_path = os.path.join(base_path, csv_file)
+
+#Output parameters
+export_dir = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
+meter_name_csv = 'list.csv'
 
 #########################################
 ### Functions
@@ -131,7 +133,7 @@ crc1 = rd_crc(crc_dict)
 
 ht_sites = ws.site_list(ht_url, url_hts)
 
-ht_sites['ExtSiteID'] = util.convert_site_names(ht_sites.SiteName)
+ht_sites['ExtSiteID'] = utils.convert_site_names(ht_sites.SiteName)
 
 ht_sites1 = ht_sites.dropna()
 
@@ -141,10 +143,6 @@ ht_waps = ht_crc_wap[['SiteName']]
 
 ################################################
 ### Export meter name table
-
-export_dir = r'C:\Users\hamishg\OneDrive - Environment Canterbury\Documents\_Projects\git\WaterUseQA\CreateTimeSeriesPlots'
-meter_name_csv = 'list.csv'
-
 file_path = os.path.join(export_dir, meter_name_csv)
 ht_crc_wap.to_csv(file_path, index=False)
 
