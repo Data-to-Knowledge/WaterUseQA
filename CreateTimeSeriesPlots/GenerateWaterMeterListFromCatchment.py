@@ -140,6 +140,6 @@ ht_waps = ht_crc_wap[['SiteName']]
 ################################################
 ### Export meter name table
 file_path = os.path.join(export_dir, meter_name_csv)
-ht_waps.to_csv(file_path, index=False)
+ht_crc_wap.to_csv(file_path, index=False)
 
 
